@@ -9,7 +9,7 @@ import FeedbackStats from "./components/FeedbackStats";
 import FeedbackForm from "./components/FeedbackForm";
 import { v4 as uuidv4 } from "uuid";
 
-const App = () => {
+const App = ({handleDelete}) => {
 const [feedback, setFeedback] = useState(FeedbackData)
 
   const addFeedback = (newFeedback) => {

@@ -9,7 +9,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #202142;
-  color: #fff;
+  color: rgb(255, 255, 255);
   line-height: 1.6;
 }
 
@@ -33,7 +33,7 @@ header {
 }
 
 .card {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   color: #333;
   border-radius: 15px;
   padding: 40px 50px;
@@ -62,7 +62,7 @@ header {
 .rating li,
 .num-display {
   position: relative;
-  background: #f4f4f4;
+  background: #babaec;
   width: 50px;
   height: 50px;
   padding: 10px;
@@ -87,8 +87,8 @@ header {
 
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
-  color: #fff;
+  background: #343ab5;
+  color: rgb(253, 250, 250);
 }
 
 [type='radio'] {
@@ -96,7 +96,7 @@ header {
 }
 
 [type='radio']:checked ~ label {
-  background: #ff6a95;
+  background: #6a8dff;
   color: #fff;
 }
 
@@ -182,7 +182,7 @@ input:focus {
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  color: rgb(175, 3, 3);
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
